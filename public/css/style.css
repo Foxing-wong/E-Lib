@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+a:link { 
+color:black;
+text-decoration:none; 
+} 
+a:visited { 
+color:black;
+text-decoration:none; 
+} 
+a:hover { 
+color:black;
+text-decoration:none; 
+} 
+a:active { 
+color:black;
+text-decoration:none; 
+} 
+body{
+font-family:"WenQuanYi Micro Hei","WenQuanYi Zen Hei","Microsoft YaHei",arial,sans-serif;
+font-size:16px
+}
+#Container{
+    width:1020px;
+    margin:0 auto;/*设置整个容器在浏览器中水平居中*/
+}
+#NAV{
+	font-weight: bold;
+	text-align:center;
+	line-height: 50px; 
+	color:black;
+}
+#Content-Left{
+    height:200px;
+    width:220px;
+    float:left;/*设置浮动，实现多列效果，div+Css布局中很重要的*/
+}
+#Content-Main{
+	margin-top:1px;
+	margin-left:10px;
+    height:200px;
+    width:790px;
+    float:left;/*设置浮动，实现多列效果，div+Css布局中很重要的*/
+}
+/*注：Content-Left和Content-Main元素是Content元素的子元素，两个元素使用了float:left;设置成两列，这个两个元素的宽度和这个两个元素设置的padding、margin的和一定不能大于父层Content元素的宽度，否则设置列将失败*/
+#Footer{
+	width:1020px;
+    margin:0 auto;/*设置整个容器在浏览器中水平居中*/
+	height:50px;
+	text-align:center;
+	border: 1px solid #CCC;
+}
+#titlebg{
+    height:20px;
+    margin-top:0px;
+	float:left;
+	
+}
+#tiaojie{
+margin:5px;
+}
+.Clear{
+    clear:both;
+}
+#news{
+    color:red;
+	size:12px;
+	bgcolor:red;
+}
+img{border:0;}
+#top{width:988px; margin:auto;height:80px;}
+#top .logo{float:left;width:178px;height:80px;}
+#top .m{float:right;line-height:80px;width:580px;}
+#top .m a{color:#333;float:left; text-decoration:none;margin-left:50px;font-size:20px;}
+#top .m a:hover{ opacity:0.9;}
+#top .m .a{color:#169bfd;}
+ul,li{list-style:none;margin:0;padding:0}
+.DB_tab25 {width:1020px;height:230px;overflow:hidden;cursor:pointer;}
+.DB_tab25 .DB_bgSet{position:relative;}
+.DB_tab25 .DB_bgSet li{position:absolute;width:100%;height:420px;display:none;}
+.DB_tab25 .DB_imgSet{position:absolute;width:988px;left:50%;margin-left:-500px;}
+.DB_tab25 .DB_imgSet .DB_1_1{position:absolute;left:20px;top:80px;}
+.DB_tab25 .DB_imgSet .DB_1_2{position:absolute;left:20px;top:160px}
+.DB_tab25 .DB_imgSet .DB_1_3{position:absolute;left:300px;top:0px}
+.DB_tab25 .DB_imgSet .DB_2_1{position:absolute;left:20px;top:60px;}
+.DB_tab25 .DB_imgSet .DB_2_2{position:absolute;left:20px;top:120px}
+.DB_tab25 .DB_imgSet .DB_2_3{position:absolute;left:540px;top:0px}
+.DB_tab25 .DB_imgSet .DB_3_1{position:absolute;left:450px;top:80px;}
+.DB_tab25 .DB_imgSet .DB_3_2{position:absolute;left:450px;top:160px}
+.DB_tab25 .DB_imgSet .DB_3_3{position:absolute;left:0px;top:0px}
+.DB_tab25 .DB_menuWrap{position:absolute;width:988px;left:50%;margin-left:-500px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet{position:absolute;width:100%;top:390px;text-align:center;font-size:0; border-radius:20px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li{cursor:pointer;display:inline}
+.DB_tab25 .DB_prev{position:absolute;left:-100px;top:170px;cursor:pointer;display:none}
+.DB_tab25 .DB_next{position:absolute;right:-100px;top:170px;cursor:pointer;display:none}
+
+.header{border: 1px solid #CCC;position:relative;height:50px; font-family: Microsoft YaHei;}
+.header .home{position:absolute;top:0;right:870px;z-index:1000;display:block;width:148px;height:50px;}
+.header .home:hover{color:black;font-size:25;background-color: #fece4e;}
+.header .join{position:absolute;top:0;right:725px;z-index:1000;display:block;width:145px;height:50px;}
+.header .join:hover{color:black;font-size:25;background-color: #fece4e;}
+.header .query{position:absolute;top:0;right:580px;z-index:1000;display:block;width:145px;height:50px;}
+.header .query:hover{color:black;font-size:25;background-color:#fece4e;}
+.header .my{position:absolute;top:0;right:435px;z-index:1000;display:block;width:145px;height:50px;}
+.header .my:hover{color:black;font-size:25;background-color:#fece4e;}
+.header .service{position:absolute;top:0;right:290px;z-index:1000;display:block;width:145px;height:50px;}
+.header .service:hover{color:black;font-size:25;background-color:#fece4e;}
+.header .contact{position:absolute;top:0;right:145px;z-index:1000;display:block;width:145px;height:50px;}
+.header .contact:hover{color:black;font-size:25;background-color:#fece4e;}
+.header .user{position:absolute;top:0;right:0px;z-index:1000;display:block;width:145px;height:50px;}
+.header .user:hover{color:black;font-size:25;background-color:#fece4e;}
+
+::selection {color: #fff;background: #fece4e;} 
+::-moz-selection {color: #fff;background: #fece4e;}
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd));
+	background:-moz-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-webkit-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-o-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-ms-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c123de', endColorstr='#a20dbd',GradientType=0);
+	background-color:#c123de;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de));
+	background:-moz-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-webkit-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-o-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-ms-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a20dbd', endColorstr='#c123de',GradientType=0);
+	background-color:#a20dbd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

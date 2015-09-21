@@ -1,0 +1,75 @@
+<script type="text/javascript" src="../public/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../public/js/jquery.DB_tabMotionBanner.min.js"></script>
+<div class="DB_tab25">
+	<ul class="DB_bgSet">
+		<li style="background:url(../public/images/bj1.jpg) no-repeat 100% 100%;"></li>
+		<li style="background:#e66c57"></li>
+		<li style="background:#202f3d"></li>
+		<li style="background:url(../public/images/bj2.jpg) no-repeat 100% 100%;"></li>
+	</ul>
+	<ul class="DB_imgSet">
+		<li>
+			<img class="DB_1_1" src="../public/images/kjzname.png" alt="">
+			<img class="DB_1_2" src="../public/images/kjzjx.png" alt="">
+            <img class="DB_1_3" src="../public/images/bn_01.png" alt="">
+		</li>
+		<li>
+			<img class="DB_2_1" src="../public/images/addchelun.png" alt="">
+			<img class="DB_2_2" src="../public/images/addt.png" alt="">
+			<img class="DB_2_3" src="../public/images/zw.png" alt="">
+		</li>
+		<li>
+			<img class="DB_3_1" src="../public/images/bn32.png" alt="">
+			<img class="DB_3_2" src="../public/images/bn33.png" alt="">
+			<img class="DB_3_3" src="../public/images/bn3.png" alt="">
+		</li>
+		</ul>
+</div>
+<header class="header">
+	<a href="../home" target="_self" class="home" title="首頁"><div id="NAV">首頁</div></a>
+	<a href="../join" target="_self" class="join" title="加入E-LIB"><div id="NAV">加入E-LIB</div></a>
+	<a href="../query" target="_self" class="query" title="館藏查詢"><div id="NAV">館藏查詢</div></a>
+	<a href="../e-lib" target="_self" class="my" title="我的E館"><div id="NAV">我的E館</div></a>
+	<a href="../service" target="_self" class="service" title="服務中心"><div id="NAV">服務中心</div></a>
+	<a href="../home/e-lib.php?id=92" target="_self" class="contact" title="聯繫我們"><div id="NAV">聯繫我們</div></a>
+	<a href="../login/logout.php" target="_self" class="user" title="登入/登出"><div id="NAV">登入/登出</div></a>
+	</header>
+<script type="text/javascript">
+$('.DB_tab25').DB_tabMotionBanner({
+	key:'b28551',
+	autoRollingTime:3300,                            
+	bgSpeed:800,
+	motion:{
+		DB_1_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_1_2:{left:-50,opacity:0,speed:1000,delay:1000},
+		DB_1_3:{left:100,opacity:0,speed:1000,delay:1500},
+		DB_2_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_2_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_2_3:{top:100,opacity:0,speed:1000,delay:1500},
+		DB_3_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_3_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_3_3:{top:0,opacity:0,speed:1000,delay:1500},
+		DB_4_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_4_2:{top:0,opacity:0,speed:1000,delay:1000},
+		DB_4_3:{top:0,opacity:0,speed:1000,delay:1500},
+		DB_4_4:{top:30,opacity:0,speed:1000,delay:2000},
+		DB_4_5:{top:100,opacity:0,speed:1000,delay:3000},
+		end:null
+	}
+})
+</script>
+<script language="javascript">
+ var scrollFunc=function(e){ 
+  e=e || window.event; 
+  if(e.wheelDelta && event.ctrlKey){//IE/Opera/Chrome 
+   event.returnValue=false;
+  }else if(e.detail){//Firefox 
+   event.returnValue=false; 
+  } 
+ }  
+ if(document.addEventListener){ 
+ document.addEventListener('DOMMouseScroll',scrollFunc,false); 
+ }//W3C 
+ window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome/Safari 
+   
+</script>

